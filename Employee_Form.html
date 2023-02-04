@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form: </title>
+</head>
+<style>
+    form{
+        border: 2px solid black;
+        background-color: beige;
+        width : 30%;
+        padding :30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+</style>
+<body style="text-align: center;">
+        
+        <form >
+            <h1>Employee Registration Form</h1>
+            <label for="Fname" >First Name : </label>
+            <input type = "text" id ="fname" value = "Jaynesh"> <br><br> 
+            <label for="lname" >Last Name : </label>
+            <input type = "text" id ="lname" value = "Mehta">  <br><br>
+            <label for="age" >Age : </label>
+            <input type = "number" id ="age" value = "22">  <br><br>
+            <label for="Gender" > Gender : </label>
+            <input type = "radio" id ="gender1" name="gender1" value = "Male">
+            <label for ="gender1">Male</label> 
+            <input type = "radio" id ="gender2" name="gender2" value = "Female">
+            <label for ="gender2">Female</label> 
+            <input type = "radio" id ="gender3" name="gender3" value = "Other">
+            <label for ="gender3">Other</label><br><br>
+            <label for="designation">Designation : </label>
+            <select name="designation" id="designation">
+                <option value="D1">junior Software Engineer</option>
+                <option value="D2">Software Engineer</option>
+                <option value="D3">Senior Software Engineer</option>
+                <option value="D4">Software Architecture</option>
+              </select>  <br> <br>
+              <label for="Salary" >Salary : </label>
+              <input type = "text" id ="salary" value = "12 lpa"> <br><br>
+              <label for="location" >Location </label>
+              <select name="location" id="location">
+                <option value="l1">Mumbai</option>
+                <option value="l2">Pune</option>
+                <option value="l3">Banglore</option>
+                <option value="l4">calcuta</option>
+                <option value="l5">ahemdabad</option>
+                <option value="l4">lucknow</option>
+                <option value="l3">chennai</option>
+                <option value="l4">kerala</option>
+              </select>  <br> <br>
+            <label for="email" >Email : </label>
+            <input type = "email" id ="email" value = "abc123@xyz.com"><br><br>
+            <label for="Doj" >Date of Joining : </label>
+            <input type = "date" id ="Doj" value = "04\02\2021"> <br> <br> 
+            <label for="contact"> Contact Details : </label>
+            <input type = "tel" id ="contact" value = "1234567891"> <br> <br> 
+            <input type="submit" value="Submit">    
+        </form>    
+    
+</body>
+</html>
